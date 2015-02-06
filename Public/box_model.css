@@ -1,0 +1,89 @@
+a {color: blue;
+	;
+
+}
+
+#rd {
+	border-style: solid;
+	background-color: red;
+	border-width: 1px;
+	width: 172px;
+	height: 72px;
+	font-weight: bold;
+	border-color: black;
+	color: white;
+	text-indent: 8px;
+}
+
+#rng {
+	border-style: solid;
+	background-color: orange;
+	border-color: black;
+	border-width: 1px;
+	width: 172px;
+	height: 72px;
+	margin-top: 10px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: white;
+	text-indent: 8px;
+}
+
+#yllw {
+	border-style: solid;
+	background-color: yellow;
+	border-width: 1px;
+	border-color: black;
+	width: 172px;
+	height: 72px;
+	margin-top: 10px;
+	margin-left: 60px;
+	font-weight: bold;
+	color: white;
+	text-indent: 8px;
+}
+
+#grn {
+	border-style: solid;
+	background-color: green;
+	border-width: 1px;
+	width: 172px;
+	height: 72px;
+	margin-top: 10px;
+	margin-left: 90px;
+	font-weight: bold;
+	border-color: black;
+	color: white;
+	text-indent: 8px;
+}
+
+#blu {
+	border-style: solid;
+	background-color: blue;
+	border-width: 1px;
+	width: 172px;
+	height: 72px;
+	margin-top: 10px;
+	margin-left: 120px;
+	font-weight: bold;
+	border-color: black;
+	color: white;
+	text-indent: 8px;
+}
+
+#prp {
+	border-style: solid;
+	background-color: purple;
+	border-width: 1px;
+	width: 172px;
+	height: 72px;
+	margin-top: 10px;
+	margin-left: 150px;
+	font-weight: bold;
+	border-color: black;
+	color: white;
+	text-indent: 8px;
+}
+
+
+
