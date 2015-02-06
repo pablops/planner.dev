@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Test form</title>
+</head>
+<body>
+
+<form method="POST" action="http://requestb.in/12s5m041">
+    <p>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+    </p>
+    
+
+<p>Compose an email.</p>
+<label for="email">
+	<input type ="checkbox" id="copy" name="copy" value="yes" checked>Do you want to save a copy?</label> <br>
+	<textarea id="body" name="body" type="text" rows="10"></textarea>
+
+<h3>Multiple choice text</h3>
+<input type="checkbox" id="answer a" name="answer a" value="yes">This is one option<label> <br>
+<input type="checkbox" id="answer b" name="answer b" value="yes">The second option<label> <br>
+
+
+
+<p>
+<label for="this thing">thisTHING</label> <br>
+	<input type="text">
+</p>
+
+<h4>Second multiple choice question</h4>
+<input type="checkbox" id="first answer" name="first answer" value="answer numero uno">First answer<label> <br>
+<input type="checkbox" id="second answer" name="second answer" value="answer numero dos">Second answer<label> <br>
+<input type="checkbox" id="third answer" name="third answer" value="answer numero tres">Third answer<label> <br>
+
+<h5>Third multiple answer question</h5>
+<input type="checkbox" id="111" name="111" value="111">Answer1<label> <br>
+<input type="checkbox" id="222" name="222" value="222">Answer2<label> <br>
+
+<br>
+<p>
+    <input type="submit">
+</p>
+</form>
+<form method="POST" action="http://requestb.in/12s5m041">
+	<h1>Selected Testing</h1>
+
+<label for="favorite_fruit">Do you like fruit?</label>
+<select id="favorite fruit" name="favorite_fruit">
+	<option value="1" default select>Yes</option>
+	<option value="2">No</option>
+</select>
+
+<br>
+
+<label for="os">What op systems have you used? </label>
+<select id="os" name="os[]" multiple>
+	<option disable selected>Choose!</option>
+	<option value="first">one os</option>
+	<option value="second">two os</option>
+	<option value="third">three os</option>
+
+</select>
+
+<p>
+    <input type="submit">
+</p>
+
+</form>
+
+
+</body>
+</html>
